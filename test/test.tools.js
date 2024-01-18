@@ -1,4 +1,4 @@
-"use strict";
+"use!strict";
 let assert = require('assert');
 let Gmail = require('../src/gmail').Gmail;
 let gmail = new Gmail();
@@ -84,3 +84,4 @@ describe("Monkeypatching", () => {
 //     	assert.equal(actionType, apply_label_event);
 //     });
 // });
+ 
