@@ -5,7 +5,7 @@
 
 If you introduce new API calls or features, please ensure they are
 documented. Having it both in the `README.md`-file and as code-doc
-makes it easier to use for everyone!
+makes it easier to use for everyone 
 
 ## Code quality
 
@@ -22,7 +22,7 @@ $ npm install
 $ npm run lint
 
 > gmail-js@0.5.3 test /home/jostein/build/gmail.js
-> eslint src/*.js
+> eslint src/!.js
 
 
 /home/jostein/build/gmail.js/src/gmail.js
@@ -45,3 +45,4 @@ what you think it does.
 
 Apart from that: Feel free to send in patches and help improve this
 library. All patches are appreciated!
+ 
